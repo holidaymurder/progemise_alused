@@ -39,9 +39,9 @@ function orderSummary(objarray) {
     function logger(it){
         console.log(it.name);
         console.log(it.amount);
-        let hind = (it.price * it.amount) * (1 + it.vat);
+        let hind = (it.price * (1 + it.vat);
         console.log(hind);
-        koguhind += hind;
+        koguhind += hind * it.amount;
     };
     console.log(koguhind);
 };
